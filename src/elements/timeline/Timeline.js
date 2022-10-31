@@ -12,10 +12,10 @@ import TimelineTwo from "./TimelineTwo";
 const Timeline = () => {
     return (
         <>
-            <SEO title="Timeline || Doob - React Business  Template" />
+            <SEO title="Timeline" />
             <Layout>
                 <BreadcrumbOne 
-                    title="The Easiest Way To Create Website <br /> Quick Copy & Make site."
+                    title="Take your product to the clinic <br/> with us."
                     rootUrl="/"
                     parentUrl="Home"
                     currentUrl="Timeline"
@@ -49,7 +49,7 @@ const Timeline = () => {
 
 
                     <Separator />
-
+{/* 
                     <div className="rwt-timeline-area rn-section-gap">
                         <div className="container">
                             <div className="row">
@@ -68,10 +68,10 @@ const Timeline = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <Separator />
 
-                    <div className="rwt-timeline-area rn-section-gap">
+                    {/* <div className="rwt-timeline-area rn-section-gap">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">
@@ -89,10 +89,10 @@ const Timeline = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <Separator />
 
-                    <div className="rwt-timeline-area rn-section-gap">
+                    {/* <div className="rwt-timeline-area rn-section-gap">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">
@@ -110,7 +110,7 @@ const Timeline = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <Separator />
 
 
