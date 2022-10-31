@@ -8,7 +8,7 @@ const NewsletterOne = ({extraClass, newsletetrStyle}) => {
                     <div className="col-lg-4">
                         <div className="newsletter-section-title">
                             <h3 className="title">Stay up to Date</h3>
-                            <p className="description">Don't miss the latest Doob news, update and trend.</p>
+                            <p className="description">Don't miss the latest clinical news, updates and trends.</p>
                         </div>
                     </div>
                     <div className="col-lg-8">

@@ -4,23 +4,23 @@ import ScrollAnimation from "react-animate-on-scroll";
 const TimelineData = [
     {
         id: "1",
-        title: "Knowledge",
-        description: "Present all available features in Essentials.",
+        title: "Prec-Clinical Study",
+        description: "Ideation and work performed in Research & Development.",
     },
     {
         id: "2",
-        title: "Working",
-        description: "All Feature available features in Essentials.",
+        title: "Translational Experiments",
+        description: "Scale up studies done by Process Developmet & Analytics settings.",
     },
     {
         id: "3",
-        title: "Solution",
-        description: "Popular Feature available features in Essentials.",
+        title: "Approval Work",
+        description: "Clinical trials(phases I-III).",
     },
     {
         id: "4",
-        title: "Process",
-        description: "Latest Feature available features in Essentials.",
+        title: "Therapy",
+        description: "Product is sold and available as a commerical therapy.",
     },
 ]
 

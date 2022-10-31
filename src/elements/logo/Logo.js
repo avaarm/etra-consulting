@@ -7,7 +7,7 @@ import styles from './logo.module.css';
 const Logo = ({image, image2}) => {
     return(
         <div className="logo">
-            <Link to={process.env.PUBLIC_URL + "/"}>
+            <Link to={process.env.PUBLIC_URL + "/business-consulting"}>
                 {/* <img className={styles.logoLight} src={process.env.PUBLIC_URL + image} alt="Corporate Logo" /> */}
                 <img className={styles.logoDark} src={process.env.PUBLIC_URL + image2} alt="Corporate Logo" />
             </Link>

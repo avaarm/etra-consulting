@@ -50,8 +50,8 @@ const HomeDefault = () => {
                                     <h1 className="title display-one">Bridging The Gap Between Science & <span>People</span>.</h1>
                                     <p className="description">We help our clients succeed by providing strategic guidance on the clinical trial process, scaling, safety, and regulatory requirements.</p>
                                     <div className="button-group">
-                                        <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://themeforest.net">Free Consultation<i className="icon"><FiArrowRight /></i></a>
-                                        <Link className="btn-default btn-medium btn-border round btn-icon" to="#">Contact Us <i className="icon"><FiArrowRight /></i></Link>
+                                        <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://docs.google.com/forms/d/11emyqE82VjEF6c9sZ4i1GM5H-Cu6nJmhw0kHgV5LkKI/prefill">Free Consultation<i className="icon"><FiArrowRight /></i></a>
+                                        <Link className="btn-default btn-medium btn-border round btn-icon" to="/contact">Contact Us <i className="icon"><FiArrowRight /></i></Link>
                                     </div>
                                 </div>
                             </div>

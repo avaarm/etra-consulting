@@ -21,7 +21,7 @@ const AboutUs = () => {
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-transparent" />
 
                 {/* Start Slider Area  */}
-                <div className="slider-area slider-style-1 height-850 bg_image" data-black-overlay="7" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/bg-image-12.jpg)`}}>
+                <div className="slider-area slider-style-1 height-850 bg_image" data-black-overlay="7" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/bg-image-4.mp4)`}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -29,7 +29,7 @@ const AboutUs = () => {
                                     <div>
                                         <h3 className="rn-sub-badge"><span className="theme-gradient">Our Company's About Details.</span></h3>
                                     </div>
-                                    <h1 className="title display-one">We are a Corporate <br /> Business Agency.</h1>
+                                    <h1 className="title display-one"> Bridging the Gap Between Research and Reality <br /> </h1>
                                 </div>
                             </div>
                         </div>
@@ -44,11 +44,11 @@ const AboutUs = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="content">
-                                    <h3 className="title">We are creative digital agency working for our company brands.</h3>
+                                    <h3 className="title"> An expert team of consultants</h3>
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <p className="mb--10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quis. Ullam accusantium dignissimos repellendus nemo fugiat numquam, nisi odio adipisci. Veniam neque itaque expedita officiis rem ipsa! Ratione, rem reiciendis?</p>
+                                <p className="mb--10">We are an independent group striving towards bridging the gap between research & development of cures to successful clinical treatments</p>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ const AboutUs = () => {
 
 
                 {/* Start Brand Area  */}
-                <div className="rwt-brand-area pb--60 pt--30">
+                {/* <div className="rwt-brand-area pb--60 pt--30">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 mt--10">
@@ -66,7 +66,7 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Brand Area  */}
 
 
@@ -81,8 +81,8 @@ const AboutUs = () => {
                                     textAlign = "text-center"
                                     radiusRounded = ""
                                     subtitle = "What we can do for you"
-                                    title = "Services provide for you."
-                                    description = "There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
+                                    title = "Services we provide for you."
+                                    description = "A list of services we are equipped to provide for your projects. <br /> "
                                     />
                             </div>
                         </div>
@@ -106,20 +106,20 @@ const AboutUs = () => {
 
                 <Separator />
 
-                <AboutFour image="./images/about/contact-image.jpg" />
+                {/* <AboutFour image="./images/about/contact-image.jpg" /> */}
                 
                 {/* Start Elements Area  */}
-                <div className="rwt-counterup-area pb--100">
+                {/* <div className="rwt-counterup-area pb--100">
                     <div className="container mt_dec--30">
                         <CounterUpFour column="col-lg-3 col-md-6 col-sm-6 col-12" counterStyle="counter-style-4" textALign="text-center" />   
                     </div>
-                </div>
+                </div> */}
                 {/* End Elements Area  */}
 
                 <Separator />
 
                 {/* Start Elements Area  */}
-                <div className="rwt-team-area rn-section-gap">
+                {/* <div className="rwt-team-area rn-section-gap">
                     <div className="container">
                         <div className="row mb--20">
                             <div className="col-lg-12">
@@ -134,7 +134,7 @@ const AboutUs = () => {
                         </div>
                         <TeamFour column="col-lg-6 col-xl-3 col-md-6 col-12 mt--30" teamStyle="team-style-three" />
                     </div>
-                </div>
+                </div> */}
                 {/* End Elements Area  */}
 
 

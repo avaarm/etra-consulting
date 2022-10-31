@@ -5,23 +5,23 @@ import PageScrollTop from './components/pageToTop/PageScrollTop'
 // Pages import Here 
 import Splash from "./pages/Splash";
 import HomeDefault from "./pages/HomeDefault";
-import BusinessConsulting2 from "./pages/BusinessConsulting2";
-import Corporate from "./pages/Corporate";
-import Business from "./pages/Business";
-import DigitalAgency from "./pages/DigitalAgency";
-import Finance from "./pages/Finance";
-import Company from "./pages/Company";
-import Marketing from "./pages/Marketing";
-import TravelAgency from "./pages/TravelAgency";
-import Consulting from "./pages/Consulting";
-import SeoAgency from "./pages/SeoAgency";
-import PersonalPortfolio from "./pages/PersonalPortfolio";
-import EventConference from "./pages/EventConference";
-import CreativePortfolio from "./pages/CreativePortfolio";
-import Freelancer from "./pages/Freelancer";
-import InternationalConsulting from "./pages/InternationalConsulting";
-import Startup from "./pages/Startup";
-import WebAgency from "./pages/WebAgency";
+// import BusinessConsulting2 from "./pages/BusinessConsulting2";
+// import Corporate from "./pages/Corporate";
+// import Business from "./pages/Business";
+// import DigitalAgency from "./pages/DigitalAgency";
+// import Finance from "./pages/Finance";
+// import Company from "./pages/Company";
+// import Marketing from "./pages/Marketing";
+// import TravelAgency from "./pages/TravelAgency";
+// import Consulting from "./pages/Consulting";
+// import SeoAgency from "./pages/SeoAgency";
+// import PersonalPortfolio from "./pages/PersonalPortfolio";
+// import EventConference from "./pages/EventConference";
+// import CreativePortfolio from "./pages/CreativePortfolio";
+// import Freelancer from "./pages/Freelancer";
+// import InternationalConsulting from "./pages/InternationalConsulting";
+// import Startup from "./pages/Startup";
+// import WebAgency from "./pages/WebAgency";
 
 
 import CategoryList from "./pages/CategoryList";
@@ -37,12 +37,12 @@ import Service from "./elements/service/Service";
 import CounterUp from "./elements/counterup/CounterUp";
 import Progressbar from "./elements/progressbar/Progressbar";
 
-import Portfolio from "./elements/portfolio/Portfolio";
-import portfolioThreeColumn from "./elements/portfolio/PortfolioThreeColumn";
-import PortfolioFullWidth from "./elements/portfolio/PortfolioFullWidth";
-import PortfolioGrid from "./elements/portfolio/PortfolioGrid";
-import PortfolioBoxLayout from "./elements/portfolio/PortfolioBoxLayout";
-import PortfolioDetails from "./pages/PortfolioDetails";
+// import Portfolio from "./elements/portfolio/Portfolio";
+// import portfolioThreeColumn from "./elements/portfolio/PortfolioThreeColumn";
+// import PortfolioFullWidth from "./elements/portfolio/PortfolioFullWidth";
+// import PortfolioGrid from "./elements/portfolio/PortfolioGrid";
+// import PortfolioBoxLayout from "./elements/portfolio/PortfolioBoxLayout";
+// import PortfolioDetails from "./pages/PortfolioDetails";
 import Social from "./elements/social/Social";
 import Team from "./elements/team/Team";
 import Timeline from "./elements/timeline/Timeline";
@@ -79,7 +79,7 @@ const App = () => {
                 <Switch>
                     <Route path={`${process.env.PUBLIC_URL + "/"}`} exact component={Splash}/>
                     <Route path={`${process.env.PUBLIC_URL + "/business-consulting"}`} exact component={HomeDefault}/>
-                    <Route path={`${process.env.PUBLIC_URL + "/business-consulting-2"}`} exact component={BusinessConsulting2}/>
+                    {/* <Route path={`${process.env.PUBLIC_URL + "/business-consulting-2"}`} exact component={BusinessConsulting2}/> */}
                     {/* <Route path={`${process.env.PUBLIC_URL + "/corporate"}`} exact component={Corporate}/>
                     <Route path={`${process.env.PUBLIC_URL + "/business"}`} exact component={Business}/>
                     <Route path={`${process.env.PUBLIC_URL + "/digital-agency"}`} exact component={DigitalAgency}/>
@@ -98,14 +98,14 @@ const App = () => {
                     <Route path={`${process.env.PUBLIC_URL + "/web-agency"}`} exact component={WebAgency}/> */}
 
                     {/* Blog Part  */}
-                    {/* <Route path={`${process.env.PUBLIC_URL + "/blog-grid"}`} exact component={BlogGridView}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/blog-grid"}`} exact component={BlogGridView}/>
                     <Route path={`${process.env.PUBLIC_URL + "/blog-list-view"}`} exact component={BlogListView}/>
                     <Route path={`${process.env.PUBLIC_URL + "/blog-grid-sidebar"}`} exact component={BlogGridSidebar}/>
                     <Route path={`${process.env.PUBLIC_URL + "/blog-list-sidebar"}`} exact component={BlogListSidebar}/>
                     <Route path={`${process.env.PUBLIC_URL + "/blog-details/:id"}`} exact component={BlogDetails}/>
                     <Route path={`${process.env.PUBLIC_URL + "/category/:slug"}`} exact component={CategoryList}/>
                     <Route path={`${process.env.PUBLIC_URL + "/archive/:slug"}`} exact component={Author}/>
-                    <Route path={`${process.env.PUBLIC_URL + "/tag/:slug"}`} exact component={TagList}/> */}
+                    <Route path={`${process.env.PUBLIC_URL + "/tag/:slug"}`} exact component={TagList}/>
 
                     <Route path={`${process.env.PUBLIC_URL + "/elements"}`} exact component={Elements}/>
                     <Route path={`${process.env.PUBLIC_URL + "/button"}`} exact component={Button}/>

@@ -19,7 +19,7 @@ const ServiceList = [
     {
         icon: <FaBookMedical/>,
         title: 'Auditting',
-        description: 'Continued analysis and support throughout the clinical trial process of the product.'
+        description: 'Auditting of the clinical space and procedures followed.'
     },
     {
         icon: <GiMedicalDrip />,
@@ -29,12 +29,12 @@ const ServiceList = [
     {
         icon: <FiFileText />,
         title: 'FDA Communications',
-        description: 'Continued analysis and support throughout the clinical trial process of the product.'
+        description: 'Facilitating and initiating FDA communication throughout the trial process .'
     },
     {
         icon: <FiFileText />,
         title: 'Cost Analysis',
-        description: 'Continued analysis and support throughout the clinical trial process of the product.'
+        description: 'Expected cost analysis of the trial process for products, instruments, staff, and GMP facility.'
     },
 ]
 
