@@ -1,0 +1,105 @@
+[
+    {
+        "id": 1,
+        "title": "Go from research to reality with our expert consulting team"
+    },
+
+    {
+        "id": 2,
+        "title": "Services",
+        "quicklink": [
+            {
+                "id": 1,
+                "text": "About",
+                "url": "/about"
+            },
+            {
+                "id": 2,
+                "text": "Portfolio",
+                "url": "/portfolio"
+            },
+            {
+                "id": 3,
+                "text": "Contact",
+                "url": "/contact"
+            },
+            {
+                "id": 4,
+                "text": "Service",
+                "url": "/service"
+            }
+        ]
+    },
+
+    {
+        "id": 3,
+        "title": "Solutions",
+        "quicklink": [
+            {
+                "id": 1,
+                "text": "About Us",
+                "url": "/about-us"
+            },
+            {
+                "id": 2,
+                "text": "Clinical Timeline",
+                "url": "/timeline"
+            }
+        ]
+    },
+
+    {
+        "id": 4,
+        "title": "Company",
+        "quicklink": [
+            {
+                "id": 1,
+                "text": "Pricing",
+                "url": "/pricing"
+            },
+            {
+                "id": 2,
+                "text": "Team",
+                "url": "/team"
+            },
+            {
+                "id": 3,
+                "text": "Service",
+                "url": "/service"
+            }
+        ]
+    },
+
+    {
+        "id": 5,
+        "title": "Resources",
+        "quicklink": [
+            {
+                "id": 1,
+                "text": "About",
+                "url": "/about"
+            },
+            {
+                "id": 2,
+                "text": "Portfolio",
+                "url": "/portfolio"
+            },
+            {
+                "id": 3,
+                "text": "Contact",
+                "url": "/contact"
+            },
+            {
+                "id": 4,
+                "text": "Service",
+                "url": "/service"
+            }
+        ]
+    },
+
+    {
+        "id": 6,
+        "title": "Stay With Us.",
+        "subtitle": "We'll send you the latest news on gmp and fda regualation"
+    }
+]
