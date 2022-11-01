@@ -5,7 +5,7 @@ import Layout from "../../common/Layout";
 import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
 import SectionTitle from "../sectionTitle/SectionTitle";
 import TimelineOne from "./TimelineOne";
-import TimelineTwo from "./TimelineTwo";
+// import TimelineTwo from "./TimelineTwo";
 
 
 

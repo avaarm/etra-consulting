@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import PageScrollTop from './components/pageToTop/PageScrollTop'
 
 // Pages import Here 
-import Splash from "./pages/Splash";
+// import Splash from "./pages/Splash";
 import HomeDefault from "./pages/HomeDefault";
 // import BusinessConsulting2 from "./pages/BusinessConsulting2";
 // import Corporate from "./pages/Corporate";
@@ -69,7 +69,8 @@ import Error from "./pages/Error";
 
 
 // Import Css Here 
-import './assets/scss/style.scss';
+
+import './styles/style.scss';
 
 
 const App = () => {
