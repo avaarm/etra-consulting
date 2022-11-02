@@ -70,7 +70,7 @@ import Error from "./pages/Error";
 
 // Import Css Here 
 
-import './styles/style.scss';
+import './assets/scss/style.scss';
 
 
 const App = () => {
