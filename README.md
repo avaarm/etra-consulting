@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+
+## Using CRACO 
+
+Create React App Configuration Overide 
+- trying to override scss building errors, other options
+- https://github.com/dilanx/craco/tree/master/packages/craco#installation
+- https://stackoverflow.com/questions/65058233/cant-resolve-scss-file-after-upgrade-to-create-react-app-4-0-1
+
 ## Available Scripts
 
 In the project directory, you can run:
