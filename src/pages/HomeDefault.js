@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi";
 import SEO from "../common/SEO";
 import HeaderOne from '../common/header/HeaderOne';
+import Typed from 'react-typed';
 // import HeaderTopNews from '../common/header/HeaderTopNews';
 import FooterOne from '../common/footer/FooterOne';
 // import Copyright from '../common/footer/Copyright';
@@ -46,10 +47,20 @@ const HomeDefault = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="inner text-center">
-                                    <span className="subtitle">Clinical Trial Consulting</span>
-                                    <h1 className="title display-one">Bridging The Gap Between Science & <span>People</span>.</h1>
-                                    <p className="description">We help our clients succeed by providing strategic guidance on the clinical trial process, scaling, safety, and regulatory requirements.</p>
-                                    <div className="button-group">
+                                    <span className="subtitle">CLINICAL TRIAL CONSULTING AGENCY</span>
+                                    <h1 className="title theme-gradient display-two">Bridging the Gap Between Science and <br /> {" "}
+                                        <Typed
+                                            strings={[
+                                                "People.",
+                                                "Medicine.",
+                                                "Therapeutics.",
+                                            ]}
+                                            typeSpeed={80}
+                                            backSpeed={5}
+                                            backDelay={1000}
+                                            loop
+                                        />
+                                    </h1>                                    <div className="button-group">
                                         <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://docs.google.com/forms/d/11emyqE82VjEF6c9sZ4i1GM5H-Cu6nJmhw0kHgV5LkKI/prefill">Free Consultation<i className="icon"><FiArrowRight /></i></a>
                                         <Link className="btn-default btn-medium btn-border round btn-icon" to="/contact">Contact Us <i className="icon"><FiArrowRight /></i></Link>
                                     </div>
