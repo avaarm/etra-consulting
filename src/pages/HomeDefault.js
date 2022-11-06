@@ -34,7 +34,7 @@ const HomeDefault = () => {
     
     return (
         <>
-            <SEO title="Clinical Trial Consulting" />
+            {/* <SEO title="Clinical Trial Consulting" /> */}
             <main className="page-wrapper">
                 {/* <HeaderTopNews /> */}
                 <HeaderOne  btnStyle="btn-small round btn-icon" HeaderSTyle="header-transparent" />
