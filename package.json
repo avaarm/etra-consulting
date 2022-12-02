@@ -1,9 +1,9 @@
 {
-  "name": "doob",
+  "name": "etra",
   "http.proxySupport": "off",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://doob.rainbowit.net/",
+  "homepage": "https://www.etrabio.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
