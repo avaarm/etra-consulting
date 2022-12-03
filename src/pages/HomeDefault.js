@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi";
-import SEO from "../common/SEO";
+// import SEO from "../common/SEO";
 import HeaderOne from '../common/header/HeaderOne';
 import Typed from 'react-typed';
 // import HeaderTopNews from '../common/header/HeaderTopNews';
@@ -61,7 +61,7 @@ const HomeDefault = () => {
                                             loop
                                         />
                                     </h1>                                    <div className="button-group">
-                                        <a className="btn-default btn-medium round btn-icon" target="_blank" href="https://docs.google.com/forms/d/11emyqE82VjEF6c9sZ4i1GM5H-Cu6nJmhw0kHgV5LkKI/prefill">Free Consultation<i className="icon"><FiArrowRight /></i></a>
+                                        <a className="https://outlook.office365.com/owa/calendar/EtraCalendat@etrabio.com/bookings/">Meet With Us<i className="icon"><FiArrowRight /></i></a>
                                         <Link className="btn-default btn-medium btn-border round btn-icon" to="/contact">Contact Us <i className="icon"><FiArrowRight /></i></Link>
                                     </div>
                                 </div>
