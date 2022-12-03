@@ -47,7 +47,7 @@ const HomeDefault = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="inner text-center">
-                                    <span className="subtitle">CLINICAL TRIAL CONSULTING AGENCY</span>
+                                    <span className="subtitle">CLINICAL TRIAL GUIDANCE</span>
                                     <h1 className="title theme-gradient display-two">Bridging the Gap Between Science and <br /> {" "}
                                         <Typed
                                             strings={[
