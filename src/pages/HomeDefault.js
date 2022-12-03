@@ -116,7 +116,7 @@ const HomeDefault = () => {
                                         radiusRounded = ""
                                         subtitle = "There every step of the way"
                                         title = "The Clinical Process"
-                                        description = "Clinical studies are ONLY done after pre-clinical suggest that the new drug or treatment is likely  <br /> to be safe and work in people."
+                                        description = "The clinical process explained. <br /> "
                                     />
                             </div>
                         </div>
