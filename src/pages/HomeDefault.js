@@ -47,7 +47,7 @@ const HomeDefault = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="inner text-center">
-                                    <span className="subtitle">CLINICAL TRIAL GUIDANCE</span>
+                                    <span className="subtitle">RESEARCH TO REALITY</span>
                                     <h1 className="title theme-gradient display-two">Bridging the Gap Between Science and <br /> {" "}
                                         <Typed
                                             strings={[
@@ -61,7 +61,7 @@ const HomeDefault = () => {
                                             loop
                                         />
                                     </h1>                                    <div className="button-group">
-                                        <a className="https://outlook.office365.com/owa/calendar/EtraCalendat@etrabio.com/bookings/">Meet With Us<i className="icon"><FiArrowRight /></i></a>
+                                        {/* <a className="https://outlook.office365.com/owa/calendar/EtraCalendat@etrabio.com/bookings/">Meet With Us<i className="icon"><FiArrowRight /></i></a> */}
                                         <Link className="btn-default btn-medium btn-border round btn-icon" to="/contact">Contact Us <i className="icon"><FiArrowRight /></i></Link>
                                     </div>
                                 </div>
@@ -115,8 +115,8 @@ const HomeDefault = () => {
                                         textAlign = "text-center"
                                         radiusRounded = ""
                                         subtitle = "There every step of the way"
-                                        title = "The Clinical Process"
-                                        description = "The clinical process explained. <br /> "
+                                        title = "The Etra Clinical Process"
+                                        description = "The etra clinical process explained. <br /> "
                                     />
                             </div>
                         </div>

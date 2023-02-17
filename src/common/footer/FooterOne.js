@@ -105,7 +105,7 @@ const FooterOne = () => {
                                                 <input type="email" placeholder="Enter Your Email Here" />
                                             </div>
                                             <div className="form-group">
-                                                <button className="btn-default" type="submit">Submit Now</button>
+                                                <button className="btn-default" type="submit">Submit</button>
                                             </div>
                                         </form>
                                     </div>

@@ -4,23 +4,28 @@ import ScrollAnimation from "react-animate-on-scroll";
 const TimelineData = [
     {
         id: "1",
-        title: "Prec-Clinical Study",
-        description: "Ideation and work performed in Research & Development.",
+        title: "Research Experiments",
+        description: "Ideation and work performed in Research & Development.We create a strategy or help guide you to a strategy in the implementation of this.",
     },
     {
         id: "2",
-        title: "Translational Experiments",
-        description: "Scale up studies done by Process Developmet & Analytics settings.",
+        title: "Translational Studies",
+        description: "Etra's experience with translating clinical research to treatments for patients helps our clients identify significant gaps in their process at a much early stage than traditional clinical trial methodologies.",
     },
     {
         id: "3",
-        title: "Approval Work",
-        description: "Clinical trials(phases I-III).",
+        title: "Pre-Clinical Studies",
+        description: "Etra collaborates with researchers and experts in the field to create highly specialized and concise study plans. Etra utilizes rigorous experimental methods to ensure accuracy and reliably of your data for future regulatory submissions.",
     },
     {
         id: "4",
-        title: "Therapy",
+        title: "Clinical Studies",
         description: "Product is sold and available as a commerical therapy.",
+    },
+    {
+        id: "5",
+        title: "Commercialization",
+        description: "Assisting in the new drug application (NDA) submission.",
     },
 ]
 

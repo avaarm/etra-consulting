@@ -9,7 +9,7 @@ const BlogDetails = ({match: {params: {id}}}) => {
     const data = BlogClassicData.filter(blog => blog.id === blogId);
     return (
         <>
-            <SEO title="Blog Details || Doob" />
+            <SEO title="Blog Details " />
             <Layout>
                 <div className="rn-blog-details-area">
                     <BlogDetailsContent data={data[0]}  />

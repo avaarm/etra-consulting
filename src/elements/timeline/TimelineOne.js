@@ -5,12 +5,12 @@ const TimelineData = [
     {
         id: "1",
         date: "Step-1",
-        title: "Pre-Clinical Study",
+        title: "Research Experiments",
         description: "Product safety, comparability to preclinical material, feasibility of process",
         image: "timeline-01",
         workingStep: [
             {
-                stepTitle: "Where we come in",
+                stepTitle: "Etra's Expertise",
                 stepDescription: "We create a strategy or help guide you to a strategy in the implementation of this",
             },
         ]
@@ -18,39 +18,39 @@ const TimelineData = [
     {
         id: "2",
         date: "Step-2",
-        title: "Translational Experiments",
+        title: "Translational Studies",
         description: "Increasing expectation for product characterization and compliance with cGMP.",
         image: "timeline-02",
         workingStep: [
             {
-                stepTitle: "Where we come in",
-                stepDescription: "Assisting and overseeing translational experiments",
+                stepTitle: "Etra's Expertise",
+                stepDescription: "Etra's experience with translating clinical research to treatments for patients helps our clients identify significant gaps in their process at a much early stage than traditional clinical trial methodologies",
             },
         ]
     },
     {
         id: "3",
         date: "Step-3",
-        title: "Registration Studies",
+        title: "Pre-Clinical Studies",
         description: "Scale up/out to support clinical studies.",
         image: "timeline-03",
         workingStep: [
             {
-                stepTitle: "Where we come in",
-                stepDescription: "Advising on scale up process",
+                stepTitle: "Etra's Expertise",
+                stepDescription: "Etra collaborates with researchers and experts in the field to create highly specialized and concise study plans. Etra utilizes rigorous experimental methods to ensure accuracy and reliably of your data for future regulatory submissions.",
             },
         ]
     },
     {
         id: "4",
         date: "Step-4",
-        title: "Post Approval Work- Phase I and Phase II work",
+        title: "Clinical Studies",
         description: "Phase I studies are done to find the highest dose of the new treatment that can be given safely without causing severe side effects.If a new treatment is found to be safe in phase I clinical trials, a phase II clinical trial is done to see if it works in certain types of cancer. ",
         image: "timeline-04",
         workingStep: [
             {
-                stepTitle: "Where we come in",
-                stepDescription: "Data analysis, report creation, and continued scientific and clinical support",
+                stepTitle: "Etra's Expertise",
+                stepDescription: "Etra has significant experience developing and validating manufacturing protocols which are successfully used by multiple manufacturing sites across the country. Etra collaborates with regulatory agencies to ensure the clinical process meets the latest manufacturing standard.",
             },
         ]
     },
@@ -62,8 +62,8 @@ const TimelineData = [
         image: "timeline-05",
         workingStep: [
             {
-                stepTitle: "Where we come in",
-                stepDescription: "Assisting in the new drug application (NDA) submition",
+                stepTitle: "Etra's Expertise",
+                stepDescription: "Assisting in the new drug application (NDA) submission",
             },
         ]
     },

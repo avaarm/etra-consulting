@@ -2,7 +2,7 @@ import React from 'react'
 import SEO from "../common/SEO";
 // import HeaderTopNews from '../common/header/HeaderTopNews';
 import HeaderOne from '../common/header/HeaderOne';
-import FooterFour from '../common/footer/FooterFour';
+import FooterOne from '../common/footer/FooterOne';
 // import BrandThree from '../elements/brand/BrandThree';
 // import AboutFour from '../elements/about/AboutFour';
 import ServiceOne from "../elements/service/ServiceOne";
@@ -27,7 +27,7 @@ const AboutUs = () => {
                             <div className="col-lg-12">
                                 <div className="inner pt--80 text-center">
                                     <div>
-                                        <h3 className="rn-sub-badge"><span className="theme-gradient">Our Company's About Details.</span></h3>
+                                        {/* <h3 className="rn-sub-badge"><span className="theme-gradient"> </span></h3> */}
                                     </div>
                                     <h1 className="title display-one"> Bridging the Gap Between Research and Reality <br /> </h1>
                                 </div>
@@ -80,7 +80,7 @@ const AboutUs = () => {
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
-                                    subtitle = "What we can do for you"
+                                    subtitle = ""
                                     title = "Services we provide for you."
                                     description = "A list of services we are equipped to provide for your projects. <br /> "
                                     />
@@ -142,7 +142,7 @@ const AboutUs = () => {
 
 
 
-                <FooterFour />
+                <FooterOne />
             </main>
         </>
     )

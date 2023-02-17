@@ -8,18 +8,18 @@ import ScrollAnimation from "react-animate-on-scroll";
 const ServiceList = [
     {
         icon: <FiActivity />,
-        title: 'cGMP Process Design',
+        title: 'Process Design',
         description: 'Bringing research to reality by providing a time tested preclinical and clinical trial design of an R&D product.'
     },
     {
         icon: <FiFileText />,
-        title: 'cGMP Quality Requirements',
-        description: 'Providing full support of compliance and regulatory requirements for cell therapy products'
+        title: 'Quality',
+        description: 'Providing full support of compliance and regulatory requirements for cell therapy products.'
     },
     {
         icon: <FaBookMedical/>,
-        title: 'Auditting',
-        description: 'Auditting of the clinical space and procedures followed.'
+        title: 'Auditing',
+        description: 'Auditing of the clinical space and procedures followed.'
     },
     {
         icon: <GiMedicalDrip />,
@@ -29,12 +29,12 @@ const ServiceList = [
     {
         icon: <FiFileText />,
         title: 'FDA Communications',
-        description: 'Facilitating and initiating FDA communication throughout the trial process .'
+        description: 'Facilitating and initiating FDA communication throughout the trial process.'
     },
     {
         icon: <FiFileText />,
         title: 'Cost Analysis',
-        description: 'Expected cost analysis of the trial process for products, instruments, staff, and GMP facility.'
+        description: 'Estimated cost analysis of the trial process for products, instruments, staff, and GMP facility.'
     },
 ]
 
