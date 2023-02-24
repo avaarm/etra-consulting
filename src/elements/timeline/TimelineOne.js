@@ -120,7 +120,7 @@ const TimelineOne = () => {
                                             animateIn="fadeInUp"
                                             animateOut="fadeInOut"
                                             animateOnce={true}>
-                                                <a className="btn-default btn-large round" href="https://outlook.office365.com/owa/calendar/EtraCalendat@etrabio.com/bookings/"><span>Get Started Now</span></a>
+                                                <a className="btn-default btn-large round" href="https://outlook.office365.com/owa/calendar/EtraCalendat@etrabio.com/bookings/" target="_blank"><span>Get Started Now</span></a>
                                             </ScrollAnimation>
                                         </div>
                                     </div>

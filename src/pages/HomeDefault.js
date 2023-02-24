@@ -62,8 +62,7 @@ const HomeDefault = () => {
                                         />
                                     </h1>                                    <div className="button-group">
                                         {/* <a className="https://outlook.office365.com/owa/calendar/EtraCalendat@etrabio.com/bookings/">Meet With Us<i className="icon"><FiArrowRight /></i></a> */}
-                                        <Link className="btn-default btn-medium btn-border round btn-icon" to="/contact">Contact Us <i className="icon"><FiArrowRight /></i></Link>
-                                    </div>
+                                        <a className="btn-default btn-icon" href="https://outlook.office365.com/owa/calendar/EtraCalendat@etrabio.com/bookings/" target="_blank" >Contact Us <i className="icon"><FiArrowRight /></i></a>                                    </div>
                                 </div>
                             </div>
                         </div>

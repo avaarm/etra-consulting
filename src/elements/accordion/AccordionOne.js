@@ -11,7 +11,7 @@ const AccordionOne = ({customStyle}) => {
                 </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="0">
-                    <Card.Body> Etra Bio is a start-up focused in the helping early stage biotech companies and academic labs in streamlining their process from research to clinical trials </Card.Body>
+                    <Card.Body> Etra Bio is a start-up focused in helping early stage biotech companies and academic labs in streamlining their process from research to clinical trials </Card.Body>
                 </Accordion.Collapse>
             </Card>
 

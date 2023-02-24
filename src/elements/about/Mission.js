@@ -30,7 +30,7 @@ const mission = () => {
                             <p>Our internal tools and cutting-edge technology allow us to streamline the development process and provide our clients with a more efficient and effective solution. We believe that by bringing together the best technology and expertise, we can help our clients bring their treatments to market more quickly, and ultimately make a real difference in the lives of patients. </p>
                             <p>At Etra Bio, we are driven by our desire for helping to develop the next generation of life-saving treatments and our commitment to making a difference in the world. We are proud to be at the forefront of the biotech industry and are dedicated to delivering innovative solutions that improve the lives of patients everywhere. </p>
                             <div className="read-more-btn mt--50">
-                                <Link className="btn-default btn-icon" to={{ pathname: "https://outlook.office365.com/owa/calendar/EtraCalendat@etrabio.com/bookings/" }}>Learn More <i className="icon"><FiArrowRight /></i></Link>
+                                <a className="btn-default btn-icon" href="https://outlook.office365.com/owa/calendar/EtraCalendat@etrabio.com/bookings/" target="_blank" >Learn More <i className="icon"><FiArrowRight /></i></a>
                             </div>
                         </div>
                     </div>
