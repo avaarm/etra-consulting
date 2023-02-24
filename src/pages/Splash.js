@@ -10,10 +10,10 @@ import { FiArrowDown } from "react-icons/fi";
 
 const Demo = [
     {
-        Url : "/business-consulting",
+        Url : "/etra",
         Image: "./images/demo/business-consulting.png" ,
         Imagelight: "./images/demo/business-consulting-light.png" ,
-        Title: "Business Consulting",
+        Title: " ",
         badge: "",
     },
 

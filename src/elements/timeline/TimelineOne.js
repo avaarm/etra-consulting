@@ -5,35 +5,22 @@ const TimelineData = [
     {
         id: "1",
         date: "Step-1",
-        title: "Research Experiments",
-        description: "Product safety, comparability to preclinical material, feasibility of process",
+        title: "Research & Translational Studies",
+        description: "Product safety, comparability to preclinical material, feasibility of process. Increasing expectation for product characterization and compliance with cGMP.",
         image: "timeline-01",
         workingStep: [
             {
                 stepTitle: "Etra's Expertise",
-                stepDescription: "We create a strategy or help guide you to a strategy in the implementation of this",
+                stepDescription: "The Etra Bio team has a tested and optimized technical transfer platfom. Additionally, the teams experience with translating clinical research to treatments for patients helps our clients identify significant gaps in their process at a much early stage than traditional clinical trial methodologies",
             },
         ]
     },
     {
         id: "2",
         date: "Step-2",
-        title: "Translational Studies",
-        description: "Increasing expectation for product characterization and compliance with cGMP.",
-        image: "timeline-02",
-        workingStep: [
-            {
-                stepTitle: "Etra's Expertise",
-                stepDescription: "Etra's experience with translating clinical research to treatments for patients helps our clients identify significant gaps in their process at a much early stage than traditional clinical trial methodologies",
-            },
-        ]
-    },
-    {
-        id: "3",
-        date: "Step-3",
         title: "Pre-Clinical Studies",
         description: "Scale up/out to support clinical studies.",
-        image: "timeline-03",
+        image: "timeline-02",
         workingStep: [
             {
                 stepTitle: "Etra's Expertise",
@@ -42,11 +29,11 @@ const TimelineData = [
         ]
     },
     {
-        id: "4",
-        date: "Step-4",
+        id: "3",
+        date: "Step-3",
         title: "Clinical Studies",
         description: "Phase I studies are done to find the highest dose of the new treatment that can be given safely without causing severe side effects.If a new treatment is found to be safe in phase I clinical trials, a phase II clinical trial is done to see if it works in certain types of cancer. ",
-        image: "timeline-04",
+        image: "timeline-03",
         workingStep: [
             {
                 stepTitle: "Etra's Expertise",
@@ -55,11 +42,11 @@ const TimelineData = [
         ]
     },
     {
-        id: "5",
-        date: "Step-5",
+        id: "4",
+        date: "Step-4",
         title: "Commercialization",
         description: "Full FDA compliance required. When phase III clinical trials (or sometimes phase II trials) show a new drug is more effective or safer than the current treatment, a new drug application (NDA) is submitted to the Food and Drug Administration (FDA) for approval.",
-        image: "timeline-05",
+        image: "timeline-04",
         workingStep: [
             {
                 stepTitle: "Etra's Expertise",

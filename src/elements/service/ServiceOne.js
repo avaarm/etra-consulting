@@ -8,8 +8,8 @@ import ScrollAnimation from "react-animate-on-scroll";
 const ServiceList = [
     {
         icon: <FiActivity />,
-        title: 'Process Design',
-        description: 'Bringing research to reality by providing a time tested preclinical and clinical trial design of an R&D product.'
+        title: 'Technical Transfer',
+        description: 'Bringing research to reality by providing a time tested preclinical and clinical trial technical tranfer platform.'
     },
     {
         icon: <FiFileText />,

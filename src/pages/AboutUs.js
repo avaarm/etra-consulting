@@ -15,7 +15,7 @@ import Separator from "../elements/separator/Separator";
 const AboutUs = () => {
     return (
         <>
-            <SEO title="About Us" />
+            <SEO title="About Etra" />
             <main className="page-wrapper">
                 {/* <HeaderTopNews /> */}
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-transparent" />
@@ -44,7 +44,7 @@ const AboutUs = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="content">
-                                    <h3 className="title"> An expert team of consultants</h3>
+                                    <h3 className="title"> A passionate team of pre-clinical clinical researchers</h3>
                                 </div>
                             </div>
                             <div className="col-lg-6">
@@ -80,7 +80,7 @@ const AboutUs = () => {
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
-                                    subtitle = ""
+                                    // subtitle = ""
                                     title = "Services we provide for you."
                                     description = "A list of services we are equipped to provide for your projects. <br /> "
                                     />

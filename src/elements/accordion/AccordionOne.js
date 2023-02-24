@@ -7,24 +7,11 @@ const AccordionOne = ({customStyle}) => {
             <Card>
                 <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                    What is Doob ? How does it work?
+                    What is etra bio ? How does it work?
                 </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="0">
-                    <Card.Body>Welcome to Doob React Creative Agency, React Portfolio and Corporate Multi Purpose Template Built With React JS. NO jQuery!. </Card.Body>
-                </Accordion.Collapse>
-            </Card>
-
-            <Card>
-                <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                    How can I run doob react template?
-                </Accordion.Toggle>
-                </Card.Header>
-                <Accordion.Collapse eventKey="1">
-                    <Card.Body>You can run doob easily. First You'll need to have node and npm on your machine. So Please open your command prompt then check your node -v and npm -v Version. Goes To Your your command prompt: then First: npm install
-
-                    At Last: npm run start. By the following way you can be run your project easily.</Card.Body>
+                    <Card.Body> Etra Bio is a start-up focused in the helping early stage biotech companies and academic labs in streamlining their process from research to clinical trials </Card.Body>
                 </Accordion.Collapse>
             </Card>
 
@@ -35,18 +22,18 @@ const AccordionOne = ({customStyle}) => {
                 </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="2">
-                    <Card.Body>After purchasing the product need you any support you can be share with us with sending mail to rainbowit10@gmail.com.</Card.Body>
+                    <Card.Body>Feel free to email us at info@etrabio.com or book a introductory meeting<a href="https://outlook.office365.com/owa/calendar/EtraCalendat@etrabio.com/bookings/"> here.</a></Card.Body>
                 </Accordion.Collapse>
             </Card>
 
             <Card>
                 <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="3">
-                    Can I get update regularly and For how long do I get updates?
+                    What can I expect from etra bio?
                 </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="3">
-                    <Card.Body>Yes, We will get update the Trydo. And you can get it any time. Next time we will comes with more feature. You can be get update for unlimited times. Our dedicated team works for update.</Card.Body>
+                    <Card.Body> We will provide clinical trial expertise and up to date technical regulatory and scientific guidance. Additionally, we, at etra work hard to promote a culture of integrity and productvity.We are genuinely passionate about getting as many safe treatments to patients in need.  </Card.Body>
                 </Accordion.Collapse>
             </Card>
 

@@ -11,7 +11,7 @@ const Contact = () => {
             <SEO title="Contact" />
             <Layout>
                 <BreadcrumbOne 
-                    title="Go from Research to Reality with the help <br /> of our qualified preclinical and clinical team"
+                    title="Go from Research to Reality with the help <br /> of our qualified Pre-Clinical and clinical team"
                     rootUrl="/"
                     parentUrl="Home"
                     currentUrl="Contact"
@@ -25,8 +25,8 @@ const Contact = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "Contact Form"
-                                        title = "Our Contact Address Here."
+                                        subtitle = "Contact Etra Bio"
+                                        title = "We are excited to hear from you. Let’s see if your clinical needs and our capabilities are a good match."
                                         description = ""
                                     />
                                 </div>

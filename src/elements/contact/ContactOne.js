@@ -17,7 +17,7 @@ const ContactOne = () => {
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Contact Phone Number</h4>
-                                        <p><a href="tel:+503 694 9333‬">+503 694 9333‬</a></p>
+                                        <p><a href="tel:+503 694 9333‬">(503)694-9333‬</a></p>
                                       
                                     </div>
                                 </div>

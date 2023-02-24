@@ -5,7 +5,7 @@ import PageScrollTop from './components/pageToTop/PageScrollTop'
 // Pages import Here 
 // import Splash from "./pages/Splash";
 import HomeDefault from "./pages/HomeDefault";
-// import BusinessConsulting2 from "./pages/BusinessConsulting2";
+import BusinessConsulting2 from "./pages/BusinessConsulting2";
 // import Corporate from "./pages/Corporate";
 // import Business from "./pages/Business";
 // import DigitalAgency from "./pages/DigitalAgency";
@@ -28,6 +28,7 @@ import CategoryList from "./pages/CategoryList";
 import TagList from "./pages/TagList";
 import Author from "./pages/Author";
 import AboutUs from "./pages/AboutUs";
+import Mission from "./pages/Mission"
 
 // Elements import Here 
 
@@ -79,8 +80,8 @@ const App = () => {
             <PageScrollTop>
                 <Switch>
                     <Route path={`${process.env.PUBLIC_URL + "/"}`} exact component={HomeDefault}/>
-                    <Route path={`${process.env.PUBLIC_URL + "/business-consulting"}`} exact component={HomeDefault}/>
-                    {/* <Route path={`${process.env.PUBLIC_URL + "/business-consulting-2"}`} exact component={BusinessConsulting2}/> */}
+                    <Route path={`${process.env.PUBLIC_URL + "/etra"}`} exact component={HomeDefault}/>
+                    {/* <Route path={`${process.env.PUBLIC_URL + "/business-consulting-2"}`} exact component={BusinessConsulting2}/>  */}
                     {/* <Route path={`${process.env.PUBLIC_URL + "/corporate"}`} exact component={Corporate}/>
                     <Route path={`${process.env.PUBLIC_URL + "/business"}`} exact component={Business}/>
                     <Route path={`${process.env.PUBLIC_URL + "/digital-agency"}`} exact component={DigitalAgency}/>
@@ -128,7 +129,9 @@ const App = () => {
                     <Route path={`${process.env.PUBLIC_URL + "/brand"}`} exact component={Brand}/>
                     <Route path={`${process.env.PUBLIC_URL + "/advance-tab"}`} exact component={AdvanceTab}/>
                     <Route path={`${process.env.PUBLIC_URL + "/advance-pricing"}`} exact component={AdvancePricing}/>
-                    <Route path={`${process.env.PUBLIC_URL + "/about-us"}`} exact component={AboutUs}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/about-etra"}`} exact component={AboutUs}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/mission"}`} exact component={Mission}/>
+
 
                     <Route path={`${process.env.PUBLIC_URL + "/error"}`} exact component={Error}/>
                     

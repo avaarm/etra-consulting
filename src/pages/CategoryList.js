@@ -1,7 +1,7 @@
 import React from 'react';
 import BlogClassicData from '../data/blog/BlogList.json';
 import CategoryListPost from '../components/blog/CategoryListPost';
-import { slugify} from "../utils"
+import {slugify} from "../utils"
 import SEO from "../common/SEO";
 import Layout from "../common/Layout";
 import BreadcrumbOne from "../elements/breadcrumb/BreadcrumbOne";

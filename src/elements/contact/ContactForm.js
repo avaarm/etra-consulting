@@ -83,7 +83,7 @@ function ContactForm({props , formStyle}) {
             </div>
 
             <div className="form-group">
-                <button className="btn-default btn-large">Submit Now</button>
+                <button className="btn-default btn-large">Submit</button>
             </div> 
 
             <div className="form-group">

@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 const Nav = () => {
     return (
         <ul className="mainmenu">
-            <li className="submenu"><Link to="/business-consulting">Home</Link>
+            <li className="submenu"><Link to="/etra">Home</Link>
                 {/* <ul className="submenu"> */}
                     {/* <li><Link to="/business-consulting">About Us</Link></li> */}
                     {/* <li><Link to="/business-consulting-2">Business Consulting 02</Link></li>
@@ -27,7 +27,9 @@ const Nav = () => {
                 {/* </ul> */}
             </li>
             
-            <li><Link to="/about-us">About</Link></li>
+            <li><Link to="/about-etra">About</Link></li>
+            <li><Link to="/mission">Mission</Link></li>
+
 
             {/* <li className="with-megamenu"><Link to="#">Elements</Link>
                 <div className="rn-megamenu">
