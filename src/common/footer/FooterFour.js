@@ -120,7 +120,7 @@ const FooterFour = () => {
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div className="copyright-right text-center text-md-end">
-                                    {/* <p className="copyright-text">© Doob {new Date().getFullYear()}</p> */}
+                                    <p className="copyright-text">© Etra Bio</p>
                                 </div>
                             </div>
                         </div>
