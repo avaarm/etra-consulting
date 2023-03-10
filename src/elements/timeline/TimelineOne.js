@@ -11,7 +11,7 @@ const TimelineData = [
         workingStep: [
             {
                 stepTitle: "Etra's Expertise",
-                stepDescription: "The Etra Bio team has a tested and optimized technical transfer platfom. Additionally, the teams experience with translating clinical research to treatments for patients helps our clients identify significant gaps in their process at a much early stage than traditional clinical trial methodologies",
+                stepDescription: "The Etra Bio team has a tested and optimized technology transfer platfom. Additionally, the teams experience with translating clinical research to treatments for patients helps our clients identify significant gaps in their process at a much early stage than traditional clinical trial methodologies",
             },
         ]
     },
