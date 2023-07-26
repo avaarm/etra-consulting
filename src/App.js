@@ -3,9 +3,9 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import PageScrollTop from './components/pageToTop/PageScrollTop'
 
 // Pages import Here 
-// import Splash from "./pages/Splash";
+import Splash from "./pages/Splash";
 import HomeDefault from "./pages/HomeDefault";
-import BusinessConsulting2 from "./pages/BusinessConsulting2";
+// import BusinessConsulting2 from "./pages/BusinessConsulting2";
 // import Corporate from "./pages/Corporate";
 // import Business from "./pages/Business";
 // import DigitalAgency from "./pages/DigitalAgency";
@@ -59,7 +59,7 @@ import Contact from "./elements/contact/Contact";
 import Brand from "./elements/brand/Brand";
 import AdvanceTab from "./elements/advancetab/AdvanceTab";
 import AdvancePricing from "./elements/advancePricing/AdvancePricing";
-
+// import 
 
 import BlogGridView from "./components/blog/BlogGridView";
 import BlogListView from "./components/blog/BlogListView";

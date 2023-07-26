@@ -361,7 +361,7 @@ const InnerPages = [
 const Splash = () => {
     return (
         <>
-           <SEO title="Doob" />
+           <SEO title="Etra" />
            <main className="page-wrapper">
                 {/* <HeaderTopNews /> */}
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-not-transparent" />

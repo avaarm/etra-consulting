@@ -31,8 +31,8 @@ const Timeline = () => {
                                         <SectionTitle
                                             textAlign = "text-center"
                                             radiusRounded = ""
-                                            subtitle = "Timeline"
-                                            title = "Working Process."
+                                            subtitle = "Etra's Process"
+                                            title = ""
                                         />
                                 </div>
                             </div>

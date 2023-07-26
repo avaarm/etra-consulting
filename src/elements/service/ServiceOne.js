@@ -9,7 +9,7 @@ const ServiceList = [
     {
         icon: <FiActivity />,
         title: 'Technology Transfer',
-        description: 'Bringing research to reality by providing a time tested preclinical and clinical trial technical tranfer platform.'
+        description: 'Bringing research to reality by providing a time tested preclinical and clinical trial technology transfer platform.'
     },
     {
         icon: <FiFileText />,

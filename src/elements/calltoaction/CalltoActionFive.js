@@ -34,12 +34,13 @@ const CalltoActionFive = () => {
                                 animateOut="fadeInOut"
                                 animateOnce={true}>
                                     <div className="call-to-btn text-center">
-                                        <a className="btn-default btn-icon" href="#">{callToActionData.btnText} <i className="icon"><FiArrowRight /></i></a>
+                                        <a className="btn-default btn-icon" href="https://outlook.office365.com/owa/calendar/EtraCalendat@etrabio.com/bookings/" npmtarget="_blank">{callToActionData.btnText} <i className="icon"><FiArrowRight /></i></a>
                                     </div>
                                 </ScrollAnimation>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>

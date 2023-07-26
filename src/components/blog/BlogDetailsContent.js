@@ -1,7 +1,7 @@
 import React from 'react';
 import SidebarTag from './sidebar/SidebarTag';
 import SideCategories from './sidebar/SideCategories';
-import Comment from './Comment';
+// import Comment from './Comment';
 import {slugify} from "../../utils";
 import {Link} from "react-router-dom";
 import { FiUser, FiCalendar } from "react-icons/fi";
@@ -47,7 +47,7 @@ const BlogDetailsContent = ({ data }) => {
                                     <SidebarTag />
                                 </div>
 
-                                <div className="rn-comment-form pt--60">
+                                {/* <div className="rn-comment-form pt--60">
                                     <div className="comment-respond">
                                         <h4 className="title mb--40">Leave a Reply</h4>
                                         <Comment 
@@ -56,7 +56,7 @@ const BlogDetailsContent = ({ data }) => {
                                             title={data.title}
                                         />
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

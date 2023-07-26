@@ -4,6 +4,7 @@ import Layout from "../../common/Layout";
 import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
 import SectionTitle from "../sectionTitle/SectionTitle";
 import ContactOne from "./ContactOne";
+import FooterOne from '../../common/footer/FooterOne';
 
 const Contact = () => {
     return (
@@ -37,6 +38,7 @@ const Contact = () => {
                     {/* End Contact Area  */}
                 </div>
             </Layout>
+            <FooterOne/>
         </>
     )
 }

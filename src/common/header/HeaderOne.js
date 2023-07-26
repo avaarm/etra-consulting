@@ -38,7 +38,7 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
                                     <Nav />
                                 </nav>
                                 <div className="header-btn">
-                                    <a className={`btn-default ${btnStyle}`} target="_blank" href="https://outlook.office365.com/owa/calendar/EtraCalendat@etrabio.com/bookings/">Partner With Us</a>
+                                    <a className={`btn-default ${btnStyle}`} target="_blank" href="https://forms.office.com/pages/responsepage.aspx?id=Nm0KCRhyDUWNScdv0X4B9s5fnBo2tItPkR1SusqXBalUN1JVUU1DRjQySjYwTDVKUE5XRzRKVUg1WC4u">Partner With Us</a>
                                 </div>
                                 <div className="mobile-menu-bar ml--5 d-block d-lg-none">
                                     <div className="hamberger">
