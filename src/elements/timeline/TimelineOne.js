@@ -11,7 +11,7 @@ const TimelineData = [
         workingStep: [
             {
                 stepTitle: "Etra's Expertise",
-                stepDescription: "The Etra Bio team has a tested and optimized technology transfer platfom. Additionally, the teams experience with translating clinical research to treatments for patients helps our clients identify significant gaps in their process at a much early stage than traditional clinical trial methodologies",
+                stepDescription: "The Etra team has a tested and optimized technology transfer platfom. Additionally, the teams experience with translating clinical research to treatments for patients helps our clients identify significant gaps in their process at a much early stage than traditional clinical trial methodologies",
             },
         ]
     },
@@ -120,7 +120,7 @@ const TimelineOne = () => {
                                             animateIn="fadeInUp"
                                             animateOut="fadeInOut"
                                             animateOnce={true}>
-                                                <a className="btn-default btn-large round" href="https://outlook.office365.com/owa/calendar/EtraCalendat@etrabio.com/bookings/" target="_blank"><span>Get Started Now</span></a>
+                                                <a className="btn-default btn-large round" href="https://outlook-sdf.office.com/bookwithme/user/580d376771cb4ad1b5a0d7fa15c3a5be%40etrathera.com/meetingtype/dcfd633a-584b-4695-89f3-52cc96a6f0b7?anonymous/" target="_blank"><span>Get Started Now</span></a>
                                             </ScrollAnimation>
                                         </div>
                                     </div>
