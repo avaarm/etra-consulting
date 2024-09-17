@@ -15,11 +15,11 @@ const ContactOne = () => {
                                     <div className="icon">
                                         <FiHeadphones />
                                     </div>
-                                    <div className="inner">
+                                    {/* <div className="inner">
                                         <h4 className="title">Contact Phone Number</h4>
                                         <p><a href="tel:+503 694 9333‬">(503)694-9333‬</a></p>
                                       
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
 
@@ -30,7 +30,7 @@ const ContactOne = () => {
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Our Email Address</h4>
-                                        <p><a href="mailto:info@etrabio.com">info@etrabio.com</a></p>
+                                        <p><a href="mailto:info@etrathera.com">info@etrathera.com</a></p>
                                     </div>
                                 </div>
                             </div>

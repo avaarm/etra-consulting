@@ -26,7 +26,7 @@ const Contact = () => {
                                     <SectionTitle
                                         textAlign = "text-center"
                                         radiusRounded = ""
-                                        subtitle = "Contact Etra Bio"
+                                        subtitle = "Contact Etra Therapeutics"
                                         title = "We are excited to hear from you. Let’s see if your clinical needs and our capabilities are a good match."
                                         description = ""
                                     />
