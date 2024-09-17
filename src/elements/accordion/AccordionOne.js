@@ -7,11 +7,11 @@ const AccordionOne = ({customStyle}) => {
             <Card>
                 <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                    What is etra bio ? How does it work?
+                    What is etra? How does it work?
                 </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="0">
-                    <Card.Body> Etra Bio is a start-up focused in helping early stage biotech companies and academic labs in streamlining their process from research to clinical trials </Card.Body>
+                    <Card.Body> Etra is a start-up focused in helping early stage biotech companies and academic labs in streamlining their process from research to clinical trials </Card.Body>
                 </Accordion.Collapse>
             </Card>
 
@@ -22,14 +22,14 @@ const AccordionOne = ({customStyle}) => {
                 </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="2">
-                    <Card.Body>Feel free to email us at info@etrabio.com or book a introductory meeting<a href="https://outlook.office365.com/owa/calendar/EtraCalendat@etrabio.com/bookings/"> here.</a></Card.Body>
+                    <Card.Body>Feel free to email us at info@etrathera.com or book a introductory meeting<a href="https://outlook-sdf.office.com/bookwithme/user/580d376771cb4ad1b5a0d7fa15c3a5be%40etrathera.com/meetingtype/dcfd633a-584b-4695-89f3-52cc96a6f0b7?anonymous"> here.</a></Card.Body>
                 </Accordion.Collapse>
             </Card>
 
             <Card>
                 <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="3">
-                    What can I expect from etra bio?
+                    What can I expect from etra?
                 </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="3">
