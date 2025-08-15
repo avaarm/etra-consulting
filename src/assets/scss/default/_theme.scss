@@ -1,0 +1,56 @@
+/* Default (Dark Theme) */
+body.dark-theme {
+    --color-heading: #ffffff;
+    --color-body: #acacac;
+    --color-dark: #060606;
+    --color-darker: rgba(6, 6, 6, 0.7);
+    --color-border: hsla(0, 0%, 100%, 0.1);
+    --color-lessdark: #1e1e1e;
+    background-color: var(--color-dark);
+    color: var(--color-body);
+}
+
+/* Light Theme */
+body.light-theme {
+    --color-heading: #000000;
+    --color-body: #333333;
+    --color-dark: #ffffff;
+    --color-darker: #f0f2f5;
+    --color-border: #e0e0e0;
+    --color-lessdark: #f8f9fa;
+    background-color: var(--color-dark);
+    color: var(--color-body);
+}
+
+/* General body styles */
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Update component-specific styles for theme compatibility */
+.box-card-style-default {
+    background-color: var(--color-lessdark);
+    border: 1px solid var(--color-border);
+}
+
+.header-default.sticky {
+    background-color: var(--color-darker);
+}
+
+.mainmenu-nav .mainmenu > li > a {
+    color: var(--color-heading);
+}
+
+.inner h1,
+.inner h2,
+.inner h3,
+.inner h4,
+.inner h5,
+.inner h6 {
+    color: var(--color-heading);
+}
+
+.inner p {
+    color: var(--color-body);
+}
+

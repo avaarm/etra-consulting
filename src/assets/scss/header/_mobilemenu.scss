@@ -16,6 +16,7 @@
     visibility: hidden;
     opacity: 0;
     transition: opacity .5s ease-out;
+    pointer-events: none;
     .inner {
         width: 320px;
         z-index: 999;
@@ -69,6 +70,7 @@
     &.active {
         visibility: visible;
         opacity: 1;
+        pointer-events: auto;
         .inner {
             opacity: 1;
             left: 0;

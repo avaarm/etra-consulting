@@ -148,6 +148,7 @@
         }
 
         .content {
+            text-align: center;
             .title {
                 font-size: 47px;
                 margin-bottom: 20px;
@@ -176,8 +177,45 @@
             }
         }
 
-        .call-to-btn {
-            margin-top: 30px;
+        .newsletter-form {
+            margin-top: 40px;
+
+            form {
+                max-width: 600px;
+                margin: 0 auto;
+            }
+
+            .form-group {
+                position: relative;
+                display: flex;
+
+                input {
+                    flex-grow: 1;
+                    height: 60px;
+                    padding: 10px 30px;
+                    border-radius: 50px;
+                    border: 1px solid var(--color-border);
+                    background-color: var(--color-darker);
+                    color: var(--color-lightest);
+                    font-size: 16px;
+                    padding-right: 180px; /* Space for the button */
+
+                    &:focus {
+                        outline: none;
+                        border-color: var(--color-primary);
+                    }
+                }
+
+                button {
+                    position: absolute;
+                    right: 5px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    height: 50px;
+                    padding: 0 30px;
+                    border-radius: 50px;
+                }
+            }
         }
     }
 

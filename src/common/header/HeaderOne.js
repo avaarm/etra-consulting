@@ -1,9 +1,10 @@
 import {useState, useRef} from "react";
+import { Link } from 'react-router-dom';
 import { FiMenu } from "react-icons/fi";
 import Logo from "../../elements/logo/Logo";
 import Nav from './Nav';
 import MobileMenu from './MobileMenu';
-import Darkmode from "./Darkmode";
+
 import useStickyHeader from "./useStickyHeader";
 
 
@@ -38,14 +39,14 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
                                     <Nav />
                                 </nav>
                                 <div className="header-btn">
-                                    <a className={`btn-default ${btnStyle}`} target="_blank" href="https://forms.office.com/pages/responsepage.aspx?id=Nm0KCRhyDUWNScdv0X4B9s5fnBo2tItPkR1SusqXBalUN1JVUU1DRjQySjYwTDVKUE5XRzRKVUg1WC4u">Partner With Us</a>
+                                    <Link className={`btn-default ${btnStyle}`} to="/login">Client Login</Link>
                                 </div>
                                 <div className="mobile-menu-bar ml--5 d-block d-lg-none">
                                     <div className="hamberger">
                                         <span className="hamberger-button" onClick={onCanvasHandler}><FiMenu /></span>
                                     </div>
                                 </div>
-                                <Darkmode />
+                                
                             </div>  
                         </div>
                     </div>

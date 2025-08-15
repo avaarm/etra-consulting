@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import PageScrollTop from './components/pageToTop/PageScrollTop'
+import PageScrollTop from './components/pageToTop/PageScrollTop';
+
 
 // Pages import Here 
 import Splash from "./pages/Splash";
@@ -23,12 +24,21 @@ import HomeDefault from "./pages/HomeDefault";
 // import Startup from "./pages/Startup";
 // import WebAgency from "./pages/WebAgency";
 
-
 import CategoryList from "./pages/CategoryList";
 import TagList from "./pages/TagList";
 import Author from "./pages/Author";
 import AboutUs from "./pages/AboutUs";
-import Mission from "./pages/Mission"
+import Mission from './pages/Mission';
+import OurServices from './pages/OurServices';
+
+// Services import Here
+import CMC from './pages/services/CMC';
+import Regulatory from './pages/services/Regulatory';
+import Nonclinical from './pages/services/Nonclinical';
+import Clinical from './pages/services/Clinical';
+import QualityCompliance from './pages/services/QualityCompliance';
+import BusinessAnalytics from './pages/services/BusinessAnalytics';
+import Login from './pages/Login';
 
 // Elements import Here 
 
@@ -52,10 +62,9 @@ import RnAccordion from "./elements/accordion/RnAccordion";
 import Tab from "./elements/tab/Tab";
 import Pricing from "./elements/pricing/Pricing";
 import Split from "./elements/split/Split";
-import CalltoAction from "./elements/calltoaction/CalltoAction";
 import Video from "./elements/video/Video";
 import Gallery from "./elements/gallery/Gallery";
-import Contact from "./elements/contact/Contact";
+
 import Brand from "./elements/brand/Brand";
 import AdvanceTab from "./elements/advancetab/AdvanceTab";
 import AdvancePricing from "./elements/advancePricing/AdvancePricing";
@@ -75,6 +84,9 @@ import './assets/scss/style.scss';
 
 
 const App = () => {
+    useEffect(() => {
+        document.body.className = 'dark-theme';
+    }, []);
     return (
         <Router>
             <PageScrollTop>
@@ -122,15 +134,25 @@ const App = () => {
                     <Route path={`${process.env.PUBLIC_URL + "/tab"}`} exact component={Tab}/>
                     <Route path={`${process.env.PUBLIC_URL + "/pricing"}`} exact component={Pricing}/>
                     <Route path={`${process.env.PUBLIC_URL + "/split"}`} exact component={Split}/>
-                    <Route path={`${process.env.PUBLIC_URL + "/call-to-action"}`} exact component={CalltoAction}/>
+                    
                     <Route path={`${process.env.PUBLIC_URL + "/video-popup"}`} exact component={Video}/>
                     <Route path={`${process.env.PUBLIC_URL + "/gallery"}`} exact component={Gallery}/>
-                    <Route path={`${process.env.PUBLIC_URL + "/contact"}`} exact component={Contact}/>
+                    
                     <Route path={`${process.env.PUBLIC_URL + "/brand"}`} exact component={Brand}/>
                     <Route path={`${process.env.PUBLIC_URL + "/advance-tab"}`} exact component={AdvanceTab}/>
                     <Route path={`${process.env.PUBLIC_URL + "/advance-pricing"}`} exact component={AdvancePricing}/>
                     <Route path={`${process.env.PUBLIC_URL + "/about-etra"}`} exact component={AboutUs}/>
                     <Route path={`${process.env.PUBLIC_URL + "/mission"}`} exact component={Mission}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/services"}`} exact component={OurServices}/>
+
+                    {/* Service Routes */}
+                    <Route path={`${process.env.PUBLIC_URL + "/services/cmc"}`} exact component={CMC}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/services/regulatory"}`} exact component={Regulatory}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/services/nonclinical"}`} exact component={Nonclinical}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/services/clinical"}`} exact component={Clinical}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/services/quality-compliance"}`} exact component={QualityCompliance}/>
+                                        <Route path={`${process.env.PUBLIC_URL + "/services/business-analytics"}`} exact component={BusinessAnalytics}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/login"}`} exact component={Login}/>
 
 
                     <Route path={`${process.env.PUBLIC_URL + "/error"}`} exact component={Error}/>

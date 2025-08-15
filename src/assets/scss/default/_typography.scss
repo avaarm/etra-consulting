@@ -1,7 +1,7 @@
 /**
  * Typography
  */
- @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
  
 * {
 	box-sizing: border-box;
@@ -70,6 +70,7 @@ h6,
 	font-family: var(--secondary-font);
 	line-height: 1.4074;
 	color: var(--color-heading);
+    text-transform: lowercase;
 }
 
 h1,

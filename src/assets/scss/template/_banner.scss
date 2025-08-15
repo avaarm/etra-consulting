@@ -199,9 +199,11 @@
     Slider Style One  
 -------------------------*/
 
+
 .slider-style-1 {
     .inner {
         .subtitle {
+            text-transform: lowercase;
             font-family: var(--font-primary);
             font-size: 18px;
             letter-spacing: 0.5px;
@@ -225,6 +227,7 @@
         }
 
         .title {
+            text-transform: lowercase;
             font-family: var(--font-primary);
             margin-bottom: 25px;
             display: inline-block;
@@ -269,8 +272,6 @@
                 margin-bottom: 25px;
             }
         }
-
-        .button-group {}
 
         &.text-start {
             .description {

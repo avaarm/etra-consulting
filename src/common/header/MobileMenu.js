@@ -1,28 +1,30 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Logo from "../../elements/logo/Logo";
 import Nav from './Nav';
 import { FiX } from "react-icons/fi";
 
 const MobileMenu = ({show, onClose}) => {
-    var elements = document.querySelectorAll('.popup-mobile-menu .has-droupdown > a');
-    var elementsTwo = document.querySelectorAll('.popup-mobile-menu .with-megamenu > a');
-    for(var i in elements) {
-        if(elements.hasOwnProperty(i)) {
-            elements[i].onclick = function() {
-                this.parentElement.querySelector('.submenu').classList.toggle("active");
-                this.classList.toggle("open");
+    useEffect(() => {
+        const subMenuToggler = (e) => {
+            const parent = e.target.parentElement;
+            if (parent.classList.contains('has-droupdown') || parent.classList.contains('with-megamenu')) {
+                e.preventDefault();
+                const subMenu = parent.querySelector('.submenu, .rn-megamenu');
+                if (subMenu) {
+                    subMenu.classList.toggle('active');
+                    e.target.classList.toggle('open');
+                }
             }
-        }
-    }
+        };
 
-    for(var i in elementsTwo) {
-        if(elementsTwo.hasOwnProperty(i)) {
-            elementsTwo[i].onclick = function() {
-                this.parentElement.querySelector('.rn-megamenu').classList.toggle("active");
-                this.classList.toggle("open");
-            }
-        }
-    }
+        const menuContainer = document.querySelector('.popup-mobile-menu');
+        menuContainer.addEventListener('click', subMenuToggler);
+
+        return () => {
+            menuContainer.removeEventListener('click', subMenuToggler);
+        };
+    }, []);
+
     return (
         <div className={`popup-mobile-menu ${show ? "active": ""}`}>
             <div className="inner">

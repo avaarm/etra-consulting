@@ -1,168 +1,126 @@
-import React from 'react'
-// import {Link} from "react-router-dom";
+import React, { useState, useEffect } from 'react';
 import { FiArrowRight } from "react-icons/fi";
-// import SEO from "../common/SEO";
 import HeaderOne from '../common/header/HeaderOne';
-import Typed from 'react-typed';
 // import HeaderTopNews from '../common/header/HeaderTopNews';
 import FooterOne from '../common/footer/FooterOne';
 // import Copyright from '../common/footer/Copyright';
-import ServiceOne from '../elements/service/ServiceOne';
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
-// import PortfolioOne from "../elements/portfolio/PortfolioOne";
 import Separator from "../elements/separator/Separator";
-import TimelineOne from "../elements/timeline/TimelineOne";
-import VideoItem from "../elements/video/VideoItem";
-// import TestimonialThree from "../elements/testimonial/TestimonialThree";
 import CalltoActionFive from "../elements/calltoaction/CalltoActionFive";
 import BlogList from "../components/blog/itemProp/BlogList";
-import BlogClassicData from '../data/blog/BlogList.json';
-var BlogListData = BlogClassicData.slice(0, 3);
+import ServiceCard from '../elements/service/ServiceCard';
 
-
-const PopupData = [
-    {
-        id: "01",
-        image: "./images/bg/bg-image-4.mp4",
-        popupLink: [
-            'https://www.youtube.com/watch?v=iWqQiJeP5ac',
-        ],
+const services = [
+    { 
+        name: 'CMC',
+        description: 'Streamlining the path from laboratory to market with expert guidance on manufacturing, controls, and product characterization.',
+        link: '/services/cmc' 
+    },
+    { 
+        name: 'Regulatory',
+        description: 'Navigating global regulatory landscapes to ensure compliance and accelerate approvals for your innovative therapies.',
+        link: '/services/regulatory' 
+    },
+    { 
+        name: 'Nonclinical',
+        description: 'Designing and executing robust nonclinical programs to establish safety and efficacy for a seamless transition to clinical trials.',
+        link: '/services/nonclinical' 
+    },
+    { 
+        name: 'Clinical',
+        description: 'Providing end-to-end clinical trial support, from strategic planning to operational execution, to bring new treatments to patients.',
+        link: '/services/clinical' 
+    },
+    { 
+        name: 'Quality & Compliance',
+        description: 'Implementing scalable quality systems and ensuring GxP compliance to safeguard product integrity and patient safety.',
+        link: '/services/quality-compliance' 
+    },
+    { 
+        name: 'Business Analytics',
+        description: 'Leveraging data-driven insights to inform strategic decisions, optimize operations, and maximize commercial success.',
+        link: '/services/business-analytics' 
     }
-]
+];
 
 const HomeDefault = () => {
+    const [articles, setArticles] = useState([]);
+
+    useEffect(() => {
+        const fetchNews = async () => {
+            // IMPORTANT: Replace 'YOUR_API_KEY' with your actual NewsAPI key.
+            // You can get a free key from https://newsapi.org/
+            const apiKey = 'a1ac5e2764e6435f9cb4cc3686fe8bab'; 
+            const url = `https://newsapi.org/v2/everything?q=(cell%20therapy%20OR%20gene%20therapy)&sortBy=publishedAt&language=en&pageSize=3&apiKey=${apiKey}`;
+
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+                if (data.articles) {
+                    const formattedArticles = data.articles.map(article => ({
+                        id: article.url, // Using URL as a unique ID
+                        title: article.title,
+                        image: article.urlToImage,
+                        author: article.source.name,
+                        date: new Date(article.publishedAt).toLocaleDateString(),
+                        url: article.url, // External link
+                        categories: [] // No categories from API
+                    }));
+                    setArticles(formattedArticles);
+                }
+            } catch (error) {
+                console.error("Error fetching news:", error);
+            }
+        };
+
+        fetchNews();
+    }, []);
     
+
     return (
         <>
-            {/* <SEO title="Clinical Trial Consulting" /> */}
             <main className="page-wrapper">
-                {/* <HeaderTopNews /> */}
-                <HeaderOne  btnStyle="btn-small round btn-icon" HeaderSTyle="header-transparent" />
-
-                {/* Start Slider Area  */}
-                {/* <div className="slider-area slider-style-1 variation-default height-850 bg_image" data-black-overlay="7" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/bg-image-3.jpg)`}}> */}
-                {/* "https://giphy.com/embed/j2Lq2pGOe0l8nPVYMN/video"  */}
-                <div className="slider-area slider-style-1 variation-default height-850 bg_image" data-black-overlay="7" style={{backgroundImage: `url('+'https://giphy.com/embed/j2Lq2pGOe0l8nPVYMN/video'+')`}}>
+                <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-transparent" />
+                <div className="slider-area slider-style-1 height-850 variation-default" style={{ background: 'linear-gradient(to right, #24243e, #302b63, #0f0c29)', color: 'white' }}>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="inner text-center">
-                                    <span className="subtitle">RESEARCH TO REALITY</span>
-                                    <h1 className="title theme-gradient display-two">Bridging the Gap Between Science and <br /> {" "}
-                                        <Typed
-                                            strings={[
-                                                "People.",
-                                                "Medicine.",
-                                                "Therapeutics.",
-                                            ]}
-                                            typeSpeed={80}
-                                            backSpeed={5}
-                                            backDelay={1000}
-                                            loop
-                                        />
-                                    </h1>                                    <div className="button-group">
-                                        {/* <a className="https://outlook.office365.com/owa/calendar/EtraCalendat@etrabio.com/bookings/">Meet With Us<i className="icon"><FiArrowRight /></i></a> */}
-                                        <a className="btn-default btn-icon" href="https://outlook.office365.com/owa/calendar/EtraCalendat@etrabio.com/bookings/" target="_blank" >Contact Us <i className="icon"><FiArrowRight /></i></a>                                    </div>
+                                    <h1 className="title theme-gradient display-3">Accelerate Your Path to Clinic. <br /> De-Risk Your Regulatory Submissions with <span className="glow">etra intelligence</span>.</h1>
+                                    <h2 className="subtitle" style={{textTransform: 'none', marginTop: '30px'}}>etra Intelligence: The first AI-powered platform designed by cell and gene therapy experts <br /> to streamline IND and BLA submissions.</h2>
+                                    <div className="button-group mt--40">
+                                        <a className="btn-default btn-icon" href="#demo" target="_blank" rel="noopener noreferrer">Request a Personalized Demo <i className="icon"><FiArrowRight /></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-           
-              
-                {/* End Slider Area  */}
-
 
                 {/* Start Service Area  */}
-                <div className="rn-service-area rn-section-gapBottom pt--100">
-                    <div className="container">
-                        <ServiceOne 
-                            serviceStyle = "service__style--1 icon-circle-style"
-                            textAlign = "text-center"
-                            />
-                    </div>
-                </div>
-                {/* End Service Area  */}
-
-                <Separator />
-                {/* Start Portfolio Area  */}
-                <div className="rwt-portfolio-area rn-section-gap">
+                <div className="rwt-service-area rn-section-gap">
                     <div className="container">
                         <div className="row">
-                            {/* <div className="col-lg-12">
+                            <div className="col-lg-12">
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
-                                    subtitle = "Our Expertise"
-                                    title = "What We Can do the Best"
-                                    description = "We are experienced in all aspects of the clinical trial process <br /> as well as specific technologies within the cell therapeutics space."
-                                /> */}
+                                    subtitle = "What We Do"
+                                    title = "Our Integrated Service Domains"
+                                    description = "We provide end-to-end strategic and operational support to move your cell and gene therapies from concept to reality."
+                                />
                             </div>
                         </div>
-                        {/* <PortfolioOne Column="col-lg-4 col-md-6 col-12 mt--30 portfolio"  /> */}
-                    </div>
-                {/* </div> */}
-                {/* End Portfolio Area  */}
-
-                <Separator />
-                {/* Start Timeline Area  */}
-                <div className="rwt-timeline-area rn-section-gap">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                    <SectionTitle
-                                        textAlign = "text-center"
-                                        radiusRounded = ""
-                                        subtitle = "There every step of the way"
-                                        title = "The Etra Clinical Process"
-                                        description = "The etra clinical process explained. <br /> "
-                                    />
-                            </div>
-                        </div>
-                        <div className="row mt_dec--20">
-                            <div className="col-lg-12">
-                                <TimelineOne />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* End Timeline Area  */}
-
-                {/* Start Video Area  */}
-                <div className="rwt-video-area rn-section-gapBottom">
-                    <div className="container">
-                        <div className="row">
-                            {PopupData.map((item) => (
-                                <div className="col-lg-12" key={item.id}>
-                                    <VideoItem galleryItem={item} />
+                        <div className="row g-5">
+                            {services.map((service, index) => (
+                                <div className="col-lg-6 col-md-6 col-sm-12 col-12" key={index}>
+                                    <ServiceCard service={service} />
                                 </div>
                             ))}
                         </div>
                     </div>
                 </div>
-                {/* End Video Area  */}
-
-
-                <Separator />
-
-                {/* Start Elements Area  */}
-                {/* <div className="rwt-testimonial-area rn-section-gap">
-                    <div className="container">
-                        <div className="row mb--20">
-                            <div className="col-lg-12">
-                                <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "Client Feedback"
-                                    title = "Our Clients Feedback."
-                                    description = "We provide company and finance service for <br /> startups and company business."
-                                />
-                            </div>
-                        </div>
-                        <TestimonialThree teamStyle="" />
-                    </div>
-                </div> */}
-                {/* End Elements Area  */}
+                {/* End Service Area  */}
 
                 <Separator />
                 <div className="blog-area rn-section-gap">
@@ -172,18 +130,21 @@ const HomeDefault = () => {
                                 <SectionTitle
                                     textAlign = "text-center"
                                     radiusRounded = ""
-                                    subtitle = "Latests News"
+                                    subtitle = "Latest News"
                                     title = "Latest News in Clinical Trials"
-                                    description = "We provide updates and changes to the <br /> clinical trials within the U.S. region."
                                 />
                             </div>
                         </div>
                         <div className="row row--15">
-                            {BlogListData.map((item) => (
-                                <div key={item.id} className="col-lg-4 col-md-6 col-sm-12 col-12 mt--30">
-                                    <BlogList StyleVar="box-card-style-default" data={item} />
-                                </div>
-                            ))}
+                            {articles.length > 0 ? (
+                                articles.map((item) => (
+                                    <div key={item.id} className="col-lg-4 col-md-6 col-sm-12 col-12 mt--30">
+                                        <BlogList StyleVar="box-card-style-default" data={item} />
+                                    </div>
+                                ))
+                            ) : (
+                                <p>Loading news...</p>
+                            )}
                         </div>
                     </div>
                 </div> 

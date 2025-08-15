@@ -35,7 +35,9 @@ body {
         .h5,
         .h6,
         .social-default li a,
-        .rbt-single-widget .title,
+        .rbt-single-widget .title {
+            text-transform: lowercase !important;
+        }
         .rbt-single-widget.widget_recent_entries .inner a,
         .tagcloud a, 
         .wp-block-tag-cloud a ,
@@ -258,7 +260,9 @@ body.light .service.gallery-style,
 body.light .rn-box-card .inner,
 body.light .team-style-default .inner,
 body.light .rn-accordion-style .card,
-body.light .section-title .subtitle,
+body.light .section-title .subtitle {
+    text-transform: lowercase;
+}
 body.light .card-box.card-style-1,
 body.light .list-icon li .icon,
 body.light .counter-style-2 .count-number,
@@ -445,6 +449,10 @@ body.light .rn-pricing .pricing-table-inner .pricing-header .pricing span.curren
 body.light .mainmenu-nav .mainmenu li.has-droupdown .submenu li a:hover,
 body.light .btn-read-more:hover span {
     color: var(--color-primary);
+}
+
+body.light .btn-default {
+    text-transform: lowercase;
 }
 
 body.light .CircularProgressbar .CircularProgressbar-text {

@@ -1,5 +1,6 @@
 .section-title {
     .subtitle {
+        text-transform: lowercase !important;
         font-weight: 600;
         letter-spacing: 0.5px;
         line-height: 18px;
@@ -13,9 +14,6 @@
         &.radius-rounded {
             border-radius: 100px;
         }
-    }
-    .title {
-        
     }
     .description {
         br {

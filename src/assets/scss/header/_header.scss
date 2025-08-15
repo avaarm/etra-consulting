@@ -159,7 +159,7 @@
     width: 100%;
     height: 110px;
     animation: headerSticky .95s ease forwards;
-    z-index: 9;
+    z-index: 999;
 }
 
 @keyframes headerSticky {

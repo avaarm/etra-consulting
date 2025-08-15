@@ -3,9 +3,9 @@ import ScrollAnimation from "react-animate-on-scroll";
 import { FiArrowRight } from "react-icons/fi";
 
 const callToActionData = {
-    title: "Ready to start taking your research to the clinic?",
-    subtitle: "",
-    btnText: "Contact Us",
+    title: "Stay With Us.",
+    subtitle: "We'll send you the latest news on GMP and FDA regulation.",
+    btnText: "Submit",
 }
 
 const CalltoActionFive = () => {
@@ -33,8 +33,13 @@ const CalltoActionFive = () => {
                                 animateIn="fadeInUp"
                                 animateOut="fadeInOut"
                                 animateOnce={true}>
-                                    <div className="call-to-btn text-center">
-                                        <a className="btn-default btn-icon" href="https://outlook.office365.com/owa/calendar/EtraCalendat@etrabio.com/bookings/" npmtarget="_blank">{callToActionData.btnText} <i className="icon"><FiArrowRight /></i></a>
+                                    <div className="newsletter-form text-center">
+                                        <form action="#">
+                                            <div className="form-group">
+                                                <input type="email" name="email" placeholder="Enter your email" required />
+                                                <button type="submit" className="btn-default btn-icon">{callToActionData.btnText} <i className="icon"><FiArrowRight /></i></button>
+                                            </div>
+                                        </form>
                                     </div>
                                 </ScrollAnimation>
                             </div>

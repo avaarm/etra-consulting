@@ -1,8 +1,8 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 // @import url('../css/bootstrap/bootstrap-utilities.css');
 // @import url('../css/bootstrap/bootstrap-grid.css');
-@import url('../css/slick.css');
-@import url('../css/slicktheme.css');
+// @import url('../css/slick.css');
+// @import url('../css/slicktheme.css');
 @import url('../css/animation.css');
 
 
@@ -12,17 +12,20 @@
 @import 'default/typography';
 @import 'default/extend';
 @import 'default/animations';
-@import 'default/shortcode';
+@import "default/shortcode";
+@import "default/services";
+@import 'default/modern-services';
 @import 'default/spacing';
 @import 'default/common';
 @import 'default/forms';
+@import 'default/theme';
 
 
 /**************************************
     Theme Styles
 ***************************************/
 
-@import 'color/themebg';
+// @import 'color/themebg';
 
 /**************************************
     Header Styles
@@ -49,7 +52,7 @@
 @import 'elements/team';
 @import 'elements/timeline';
 @import 'elements/testimonial';
-@import 'elements/slickslide';
+// @import 'elements/slickslide';
 @import 'elements/tab';
 @import 'elements/pricing';
 @import 'elements/split';
@@ -63,6 +66,7 @@
 @import 'elements/about';
 @import 'elements/swicher';
 @import 'elements/404';
+@import 'default/login';
 
 
 
@@ -92,4 +96,13 @@
 @import 'footer/footer';
 @import 'footer/copyright';
 @import 'footer/darkmode';
+
+.theme-toggler {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: var(--text-color);
+}
+
 

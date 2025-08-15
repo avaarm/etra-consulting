@@ -8,6 +8,7 @@
         padding: 0;
         > li {
             > a {
+                text-transform: lowercase;
                 color: var(--color-body);
                 font-size: 16px;
                 font-weight: 500;
@@ -28,6 +29,7 @@
 
             &.has-droupdown {
                 .submenu {
+                    background-color: var(--color-blackest);
                     min-width: 240px;
                     height: auto;
                     position: absolute;

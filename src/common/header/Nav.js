@@ -30,6 +30,17 @@ const Nav = () => {
             <li><Link to="/about-etra">About</Link></li>
             <li><Link to="/mission">Mission</Link></li>
 
+            <li className="has-droupdown"><Link to="/services">Our Services</Link>
+                <ul className="submenu">
+                    <li><Link to="/services/cmc">CMC</Link></li>
+                    <li><Link to="/services/regulatory">Regulatory</Link></li>
+                    <li><Link to="/services/nonclinical">Nonclinical</Link></li>
+                    <li><Link to="/services/clinical">Clinical</Link></li>
+                    <li><Link to="/services/quality-compliance">Quality & Compliance</Link></li>
+                    <li><Link to="/services/business-analytics">Business Analytics</Link></li>
+                </ul>
+            </li>
+
 
             {/* <li className="with-megamenu"><Link to="#">Elements</Link>
                 <div className="rn-megamenu">

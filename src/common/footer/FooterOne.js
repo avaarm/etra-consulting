@@ -94,24 +94,7 @@ const FooterOne = () => {
                             </div>
                             {/* End Single Widget  */}
 
-                            {/* Start Single Widget  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div className="rn-footer-widget">
-                                    <h4 className="title">{footerIntemFive.title}</h4>
-                                    <div className="inner">
-                                        <h6 className="subtitle">{footerIntemFive.subtitle}</h6>
-                                        <form className="newsletter-form" action="#">
-                                            <div className="form-group">
-                                                <input type="email" placeholder="Enter Your Email Here" />
-                                            </div>
-                                            <div className="form-group">
-                                                <button className="btn-default" type="submit">Submit</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* End Single Widget  */}
+
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import Typed from 'react-typed';
 import {Link} from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi";
 import AccordionOne from '../accordion/AccordionOne';
@@ -12,17 +11,7 @@ const mission = () => {
                     <div className="col-lg-6">
                         <div className="mission-title">
                             <h2 className="title">Etra's Mission <br /> {" "}
-                                <Typed className="theme-gradient"
-                                    strings={[
-                                        "Research to...",
-                                        "Clinic to...",
-                                        "Patients.",
-                                    ]}
-                                    typeSpeed={80}
-                                    backSpeed={5}
-                                    backDelay={1000}
-                                    loop
-                                />
+                                <span className="theme-gradient">Patients.</span>
                             </h2>
                             <p>Etra is a biotech startup that is dedicated to bridging the gap between early-stage research and development of cures and successful clinical treatments. We believe that the use of cutting-edge technology and innovative internal tools will enable us to fast-track the process of getting a product to the clinic and improve the lives of patients everywhere. </p>
 
